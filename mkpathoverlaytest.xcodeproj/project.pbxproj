@@ -22,6 +22,7 @@
 		7EC30617186870E300E39F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC305F6186870E300E39F69 /* UIKit.framework */; };
 		7EC3061F186870E300E39F69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3061D186870E300E39F69 /* InfoPlist.strings */; };
 		7EC30621186870E300E39F69 /* mkpathoverlaytestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC30620186870E300E39F69 /* mkpathoverlaytestTests.m */; };
+		7EC3062B1868714300E39F69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC3062A1868714300E39F69 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		7EC3061C186870E300E39F69 /* mkpathoverlaytestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mkpathoverlaytestTests-Info.plist"; sourceTree = "<group>"; };
 		7EC3061E186870E300E39F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7EC30620186870E300E39F69 /* mkpathoverlaytestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mkpathoverlaytestTests.m; sourceTree = "<group>"; };
+		7EC3062A1868714300E39F69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC3062B1868714300E39F69 /* MapKit.framework in Frameworks */,
 				7EC305F5186870E300E39F69 /* CoreGraphics.framework in Frameworks */,
 				7EC305F7186870E300E39F69 /* UIKit.framework in Frameworks */,
 				7EC305F3186870E300E39F69 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		7EC305F1186870E300E39F69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EC3062A1868714300E39F69 /* MapKit.framework */,
 				7EC305F2186870E300E39F69 /* Foundation.framework */,
 				7EC305F4186870E300E39F69 /* CoreGraphics.framework */,
 				7EC305F6186870E300E39F69 /* UIKit.framework */,
@@ -395,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mkpathoverlaytest/mkpathoverlaytest-Prefix.pch";
 				INFOPLIST_FILE = "mkpathoverlaytest/mkpathoverlaytest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mkpathoverlaytest/mkpathoverlaytest-Prefix.pch";
 				INFOPLIST_FILE = "mkpathoverlaytest/mkpathoverlaytest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
